@@ -10,7 +10,7 @@ python:
   - 3.8
 
 script:
-  - make install
-  - make uninstall
+  - sudo make install
+  - sudo make uninstall
   - python setup.py install
   - python setup.py test 
